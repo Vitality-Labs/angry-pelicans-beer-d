@@ -27,6 +27,14 @@
             android:name=".views.SplashScreen"
             tools:ignore="Instantiatable">
         </activity>
+        <activity
+            android:name=".views.BrowseScreen"
+            tools:ignore="Instantiatable">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

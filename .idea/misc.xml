@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/David/StudioProjects/Beerd/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/David/StudioProjects/Beerd/app/src/main/res/drawable/button_style.xml" value="0.225" />
+        <entry key="..\:/Users/David/StudioProjects/Beerd/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2564814814814815" />
         <entry key="..\:/Users/David/StudioProjects/Beerd/app/src/main/res/layout/activity_main.xml" value="0.10131712259371833" />
-        <entry key="..\:/Users/David/StudioProjects/Beerd/app/src/main/res/layout/splash_screen.xml" value="0.12892603850050657" />
+        <entry key="..\:/Users/David/StudioProjects/Beerd/app/src/main/res/layout/browse_screen.xml" value="0.33" />
+        <entry key="..\:/Users/David/StudioProjects/Beerd/app/src/main/res/layout/splash_screen.xml" value="0.1" />
       </map>
     </option>
   </component>

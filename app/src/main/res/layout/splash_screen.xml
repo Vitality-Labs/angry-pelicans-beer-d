@@ -3,17 +3,61 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
-        android:text="TEST!!"
-        android:textSize="48sp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/chewy"
+        android:text="BEER'D"
+        android:textColor="@color/white"
+        android:textSize="96sp"
         android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_browse"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/grey"
+        android:bottomLeftRadius="20dp"
+        android:bottomRightRadius="20dp"
+        android:text="Browse Brews"
+        android:textSize="20sp"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_saved_list"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="145dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/grey"
+        android:bottomLeftRadius="20dp"
+        android:bottomRightRadius="20dp"
+        android:text="SAVED BREWS"
+        android:textSize="20sp"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
