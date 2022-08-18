@@ -23,6 +23,10 @@
             android:name=".App"
             tools:ignore="Instantiatable">
         </activity>
+        <activity
+            android:name=".views.SplashScreen"
+            tools:ignore="Instantiatable">
+        </activity>
     </application>
 
 </manifest>
